@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie.css"/>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--头部开始-->
+		<header class="header">
+			<div class="top">
+				<a href="index.html" class="logo"><img src="images/logo.png" /> </a>
+				<span class="welcome"></span>
+				<a href="#" class="hyqy">会员权益</a>
+			</div>
+		</header>
+		<!--头部结束-->
+
+		<!--内容开始-->
+		<div class="content">
+			<div class="main">
+				<div class="login">
+					<div class="login-title">
+						<h1>惠友登录</h1>
+						<a href="register.html" class="register">注册会员</a>
+					</div>
+					<p class="tip">友情提示：定期修改登录密码，可以保护帐号安全哦！</p>
+					<form action="index.html" id="loginForm">
+						<div class="name">
+							<p class="nameTip">请输入用户名/邮箱账号</p>
+							<i></i>
+							<input type="text" value="" placeholder="请输入用户名/邮箱账号" class="userName" />
+						</div>
+
+						<div class="pwd">
+							<p class="pwdTip">请输入登录密码</p>
+							<i></i>
+							<input type="password" value="" placeholder="请输入登录密码" class="userPwd" />
+						</div>
+
+						<div class="autoLogin">
+							<label><input type="checkbox" checked="checked" name="autologin"  class="zddl"/>自动登录</label>
+							<a href="#" class="forgetPwd">忘记密码</a>
+						</div>
+
+						<input type="submit" value="提  交" class="login-sub" />
+
+						<div class="other-login">
+							<p>使用合作网站帐号登录：</p>
+							<a href="#" class="qq-ico"></a>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--内容结束-->
+
+		<!--引入底部-->
+		<footer id="comm-footer">
+			<div class="footer-wrap">
+				<div class="footer-nav">
+					<a href="index.html">易购易惠</a>
+					<a href="wap/index.html">易购易惠·触屏版</a>
+					<a href="baoliao.html">优质爆料</a>
+					<a href="mallRebate.html">商城返利</a>
+					<a href="quan.html">优惠券</a>
+					<a href="jifen.html">积分商城</a>
+					<a href="aboutUs.html">关于我们</a>
+					<a href="feedback.html">意见反馈</a>
+				</div>
+				<p class="copyright">Copyright &copy; 2016 by yigouyihui all rights reserved.</p>
+				<div class="footer-ico">
+					<a href="#"><img src="images/footer-ico1.png" /><span>网络社区警务室</span></a>
+					<a href="#"><img src="images/footer-ico2.png" /><span> 企业法人营业执照</span></a>
+					<a href="#"><img src="images/footer-ico3.png" /><span>实名认证</span></a>
+					<a href="#"><img src="images/footer-ico4.png" /><span>官网认证</span></a>
+					<a href="#"><img src="images/footer-ico5.png" /><span> 工商网监</span></a>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>

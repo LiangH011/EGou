@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>充值中心</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body >
+		<div data-role="page" id="chongzhi" class="page">
+			<!--头部开始-->
+			<div data-role="none"  class="top">
+				<div class="top-wrap">
+					<a href="index.html" data-role="none" data-ajax="false" class="back"></a>
+					<div data-role="none" class="top-name">充值中心</div>
+					<a href="chongzhi.html" data-role="none" data-ajax="false" class="top-sx"></a>
+				</div>
+			</div>
+			<!--头部结束-->
+			
+			<!--内容开始-->
+			<div data-rol"none"  class="content">
+				<!--logo-->
+				<div class="cz-logo">
+					<img src="images/yqh_chongzhi.jpg" />
+				</div>
+				<ul class="cz-nav">
+					<li>话费充值</li>
+					<li>Q币充值</li>
+				</ul>
+				<div class="cz-input">
+					<input type="text" placeholder="充值号码" data-role="none"/>
+				</div>
+				
+				<!--充值分类开始-->
+				<div class="cz-content">
+					<ul class="cz-list">
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">20元</p>
+								<p class="cz-ptj">普通价： <i>19.4</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">30元</p>
+								<p class="cz-ptj">普通价： <i>29.1</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">50元</p>
+								<p class="cz-ptj">普通价： <i>48.5</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">100元</p>
+								<p class="cz-ptj">普通价： <i>97.00</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						
+					</ul>
+					
+					<ul class="cz-list">
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">10 Q币</p>
+								<p class="cz-ptj">普通价： <i>9.70</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">20 Q币</p>
+								<p class="cz-ptj">普通价： <i>19.40</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">30 Q币</p>
+								<p class="cz-ptj">普通价： <i>29.10</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">40 Q币</p>
+								<p class="cz-ptj">普通价： <i>38.80</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">QQ蓝钻/月</p>
+								<p class="cz-ptj">普通价： <i>9.7</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">QQ黄钻/月</p>
+								<p class="cz-ptj">普通价： <i>9.7</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<p class="cz-price">QQ绿钻/月</p>
+								<p class="cz-ptj">普通价： <i>9.7</i> 元</p>
+								<p class="cz-dz">9.7折</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!--充值分类结束-->
+				
+				<!--支付分类开始-->
+				<ul class="zffs-nav">
+					<li>余额支付</li>
+					<li>惠币支付/li>
+				</ul>
+				
+				<div class="zffs-content">
+					<div class="zffs-list">
+						<p class="zf-tip">您当前是普通会员，专享 9.7折 充值优惠！</p>
+						<p class="kyjr">可用余额：0.00元</p>
+						<input type="button" data-role="none" value="立即支付：0.00元" class="zf-btn"/>
+					</div>
+					<div class="zffs-list">
+						<p class="zf-tip">您当前是普通会员，专享 9.7折 充值优惠！</p>
+						<p class="kyjr">可用惠币：3个</p>
+						<input type="button" data-role="none" value="立即支付：0惠币" class="zf-btn" />
+					</div>
+				</div>
+				<!--支付分类结束-->
+				
+				
+			</div>
+			
+			<!--内容结束-->
+			
+			
+				<!--底部开始-->
+			<ul  class="bottom" >
+				<li>
+					<a href="index.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon shouye-ico"></i>
+						<span class="bottom-name" >首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="mallRebate.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon scfl-ico"  ></i>
+						<span class="bottom-name">商城返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="baoliao.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon yhbl-ico"></i>
+						<span class="bottom-name">优惠爆料</span>
+					</a>
+				</li>
+				<li>
+					<a href="fanli.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon cjfl-ico"></i>
+						<span class="bottom-name">超级返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="user.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon wode-ico"></i>
+						<span class="bottom-name" >我的</span>
+					</a>
+				</li>
+			</ul>
+			<!--底部结束-->
+			
+		</div>
+	</body>
+</html>

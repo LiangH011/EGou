@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body >
+		<div data-role="page" id="login" class="page">
+			<!--头部开始-->
+			<div data-role="none"  class="top">
+				<a href="fanli.html" data-role="none" data-ajax="false" class="back"></a>
+				<div data-role="none" class="top-name">登录</div>
+				<a href="login.html" data-role="none" data-ajax="false" class="top-sx"></a>
+			</div>
+			<!--头部结束-->
+			
+			<!--主体开始-->
+			<div class="content" data-role="none">
+				<div class="login-content">
+					<form action="user.html" id="login-form">
+						<div>
+							<span class="left">账号</span>
+							<input type="text" placeholder="请输入用户名/邮箱/手机号" value="" data-role="none" class="username"/>
+							<span class="errorTip">请输入正确账号</span>
+						</div>
+						<div>
+							<span class="left">密码</span>
+							<input type="password" placeholder="请输入登录密码" value="" data-role="none" class="pwd"/>
+							<span class="errorTip">密码格式不正确</span>
+						</div>
+						<div>
+							<span class="left">验证码</span>
+							<input type="text" placeholder="请输入验证码" value=""  data-role="none" class="varilfy"/>
+							<span class="yzm"></span>
+							<span class="errorTip">验证码不正确</span>
+						</div>
+						<input type="submit" value="确认登录"  data-role="none" class="login-btn"/>
+					</form>
+					<div class="other-type">
+						<a href="forget.html" data-ajax="false">忘记密码</a>
+						<a href="register.html" data-ajax="false">立即注册</a>
+					</div>
+				</div>
+				
+				<div class="other-login">
+					<div class="other-title">
+						<span class="line"></span>
+						<span class="other-txt">使用合作网站账号登录</span>
+					</div>
+					<a href="#" class="qq-login">
+						<i></i>
+					</a>
+				</div>
+				
+				
+			</div>
+			<!--主体结束-->
+			
+			
+			
+			<!--底部开始-->
+			<ul  class="bottom" >
+				<li>
+					<a href="index.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon shouye-ico" ></i>
+						<span class="bottom-name">首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="mallRebate.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon scfl-ico"></i>
+						<span class="bottom-name">商城返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="baoliao.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon yhbl-ico"></i>
+						<span class="bottom-name">优惠爆料</span>
+					</a>
+				</li>
+				<li>
+					<a href="fanli.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon cjfl-ico"></i>
+						<span class="bottom-name">超级返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="user.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon wode-ico"></i>
+						<span class="bottom-name">我的</span>
+					</a>
+				</li>
+			</ul>
+			<!--底部结束-->
+		</div>
+	</body>
+</html>
